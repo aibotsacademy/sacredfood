@@ -316,6 +316,99 @@ h1, h2, h3, h4, h5, h6 {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
+
+
+
+
+
+
+#heroes {
+  width: 100%;
+  height: 100vh;
+  background: url(../img/agricul.jpg) top center;
+  background-size: cover;
+  position: relative;
+}
+
+
+@media (min-width: 1024px) {
+  #heroes {
+    background-attachment: fixed;
+  }
+}
+
+#heroes:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#heroes .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#heroes h1 {
+  margin: 30px 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #heroes h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#heroes h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #heroes h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+#heroes .btn-get-started {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#heroes .btn-get-started:hover {
+  background: #2dc997;
+  border: 2px solid #2dc997;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
