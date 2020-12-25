@@ -1188,6 +1188,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-decoration: none;
   cursor: pointer;
 }
+.container-texto{
+  width: 100%;
+  padding-right: 70px;
+  padding-left: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: left;
+  
+
+}
+@media (max-width: 768px) {
+  .container-texto{
+    padding: 50px 15px 0px 15px
+  }
+  
+}
 
 
 
