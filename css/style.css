@@ -1,12 +1,4 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background: #fff;
   color: #666666;
@@ -202,6 +194,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
 }
+
 
 #hero .btn-get-started {
   font-family: "Poppins", sans-serif;
@@ -1010,6 +1003,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic img {
+  width: 100%;
   max-width: 100%;
 }
 
@@ -1204,6 +1198,112 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   
 }
+
+
+/* marketplace */
+/*------------------------------------------------------------------ Instagram Feed -------------------------------------------------------------------*/
+.instagram-box{
+  padding: 70px 0px;
+  background: url(../images/ins-bg.jpg) no-repeat center center;
+  background-size: auto auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+.instagram-box::before{
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  content: "" ;
+  position: absolute;
+  z-index: 0;
+}
+.main-instagram.owl-carousel .owl-nav button.owl-prev{
+  background: #000000;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height: 0px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffffff;
+  top: 0;
+  padding: 0;
+  margin-top: 0;
+  opacity: 1;
+  left: 0px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main-instagram.owl-carousel .owl-nav button.owl-next{
+  background: #000000;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height: 0px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #ffffff;
+  top: 0;
+  padding: 0;
+  margin-top: 0;
+  opacity: 1;
+  right: 0px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main-instagram.owl-carousel .owl-nav button.owl-next:hover, .main-instagram.owl-carousel .owl-nav button.owl-prev:hover{
+  background: #2dc997;
+}
+.ins-inner-box{
+  position: relative;
+}
+.hov-in{
+  opacity: 0;
+  background: rgba(211,59,51, 0.5);
+  bottom: -100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-out 0.5s;
+  -moz-transition: all 0.3s ease-out 0.5s;
+  -o-transition: all 0.3s ease-out 0.5s;
+  -ms-transition: all 0.3s ease-out 0.5s;
+  transition: all 0.3s ease-out 0.5s;
+  text-align: center;
+  display: table;
+}
+.hov-in a{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+}
+.hov-in i{
+  color: #000000;
+  font-size: 48px;
+  position: relative;
+  z-index: 2;
+}
+.hov-in a i:hover{
+  color: #ffffff;
+}
+.ins-inner-box:hover .hov-in{
+  bottom: 0;
+  opacity: 1;
+}
+
+
 
 
 
