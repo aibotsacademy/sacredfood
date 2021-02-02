@@ -76,7 +76,7 @@
 /* mobile or only mobile */
  @media (max-width: 767px) {
      nav.navbar.bootsnav .navbar-header{
-         width: 80%;
+         width: 100%;
     }
      .navbar-light .navbar-toggler{
          border-color: #2dc997;
